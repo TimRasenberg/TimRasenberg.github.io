@@ -136,4 +136,58 @@ body {
  }
 /*Dashboard*/
 
-#study-monitor {}
+.dashboard-header {
+    position: absolute; left: 790px;
+    background-color: #212121;
+    background-size: auto;
+    box-sizing: inherit;
+    border: #4d005c;
+    border-width: 10px;
+    border-style: outset;
+    padding: 10px;
+    color: white;
+}
+
+#study-monitor {   
+    border: #4d005c;
+    border-width: 10px;
+    border-style: outset;
+    background-color: #212121;
+    color: white
+
+}
+td {white-space: nowrap;}
+
+table, th, td {
+    border: 1px solid #4d005c;
+}
+table {
+    border-spacing: 5px;
+    position: absolute; left: 400px;
+    position: absolute; bottom: -20px;
+}
+.study-guide {
+    position: absolute; left: 790px;
+    position: absolute; bottom: -220px;
+    background-color: #212121;
+    background-size: auto;
+    box-sizing: inherit;
+    border: #4d005c;
+    border-width: 10px;
+    border-style: outset;
+    padding: 10px;
+    color: white;
+
+}
+.dashboard-text {
+    position: absolute; left: 730px;
+    position: absolute; bottom: -490px;
+    background-color: #212121;
+    background-size: auto;
+    box-sizing: inherit;
+    border: #4d005c;
+    border-width: 10px;
+    border-style: outset;
+    padding: 10px;
+    color: white;
+}
